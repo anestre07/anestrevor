@@ -117,7 +117,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent !important;
-			color: #10B981;
+			color: #8B5CF6;
 		}
 
 	strong, b {
@@ -2106,7 +2106,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #10B981;
+			border-color: #8B5CF6;
 		}
 
 	select {
@@ -2211,7 +2211,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #10B981;
+			border-color: #8B5CF6;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2301,27 +2301,27 @@ input, select, textarea {
 		}
 
 		.icon.style1:before {
-			color: #10B981;
+			color: #8B5CF6;
 		}
 
 		.icon.style2:before {
-			color: #059669;
+			color: #7C3AED;
 		}
 
 		.icon.style3:before {
-			color: #047857;
+			color: #6D28D9;
 		}
 
 		.icon.style4:before {
-			color: #065F46;
+			color: #5B21B6;
 		}
 
 		.icon.style5:before {
-			color: #064E3B;
+			color: #4C1D95;
 		}
 
 		.icon.style6:before {
-			color: #34D399;
+			color: #A78BFA;
 		}
 
 		.icon.major {
@@ -2823,10 +2823,10 @@ input, select, textarea {
 		}
 
 		.main.style2 {
-			background-color: #065F46;
+			background-color: #5B21B6;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed,							fixed;
-			background-image: url("images/overlay1.png"), linear-gradient(135deg, #064E3B 0%, #065F46 25%, #047857 50%, #059669 75%, #10B981 100%);
+			background-image: url("images/overlay1.png"), linear-gradient(135deg, #4C1D95 0%, #5B21B6 25%, #6D28D9 50%, #7C3AED 75%, #8B5CF6 100%);
 			background-size: auto,							cover;
 		}
 
@@ -2914,10 +2914,10 @@ input, select, textarea {
 
 	#header {
 		padding: 9em 0 9em 0 ;
-		background-color: #059669;
+		background-color: #7C3AED;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(135deg, #10B981 0%, #059669 25%, #047857 50%, #065F46 75%, #064E3B 100%);
+		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(135deg, #8B5CF6 0%, #7C3AED 25%, #6D28D9 50%, #5B21B6 75%, #4C1D95 100%);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
@@ -2975,8 +2975,8 @@ input, select, textarea {
 			#header input[type="button"].primary,
 			#header button.primary,
 			#header .button.primary {
-				background-color: #10B981;
-				box-shadow: inset 0 0 0 1px #10B981 !important;
+				background-color: #8B5CF6;
+				box-shadow: inset 0 0 0 1px #8B5CF6 !important;
 				color: #ffffff !important;
 			}
 
@@ -3076,7 +3076,7 @@ input, select, textarea {
 			-webkit-transition: opacity 1s ease;
 			-ms-transition: opacity 1s ease;
 			transition: opacity 1s ease;
-			background-image: linear-gradient(135deg, #10B981, #059669);
+			background-image: linear-gradient(135deg, #8B5CF6, #7C3AED);
 			content: '';
 			height: 100%;
 			left: 0;
@@ -3110,10 +3110,10 @@ input, select, textarea {
 
 	#footer {
 		padding: 6em 0 6em 0 ;
-		background-color: #059669;
+		background-color: #7C3AED;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(135deg, #064E3B 0%, #065F46 35%, #047857 70%, #10B981 100%);
+		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(135deg, #4C1D95 0%, #5B21B6 35%, #6D28D9 70%, #8B5CF6 100%);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		text-align: center;
@@ -3527,7 +3527,7 @@ input, select, textarea {
 
 	/* Skills section enhancements */
 	#two p strong {
-		color: #10B981;
+		color: #8B5CF6;
 		font-weight: 600;
 		display: block;
 		margin-bottom: 0.5em;
@@ -3555,18 +3555,18 @@ input, select, textarea {
 
 	/* GitHub link emphasis */
 	#one .button.icon.fa-github {
-		background-color: #059669;
+		background-color: #7C3AED;
 		color: #ffffff !important;
-		border-color: #059669;
+		border-color: #7C3AED;
 	}
 
 	#one .button.icon.fa-github:hover {
-		background-color: #10B981;
-		box-shadow: 0 4px 12px rgba(16, 185, 129, 0.5);
+		background-color: #8B5CF6;
+		box-shadow: 0 4px 12px rgba(139, 92, 246, 0.5);
 	}
 
-	/* Laptop-code icon animation */
-	#header .icon.solid.major.fa-laptop-code {
+	/* Tools icon animation */
+	#header .icon.solid.major.fa-tools {
 		animation: float 3s ease-in-out infinite;
 	}
 
@@ -3590,7 +3590,7 @@ input, select, textarea {
 
 	/* Modern gradient text effect */
 	#header h1 strong {
-		background: linear-gradient(135deg, #ffffff 0%, #D1FAE5 50%, #ECFDF5 100%);
+		background: linear-gradient(135deg, #ffffff 0%, #E9D5FF 50%, #F3E8FF 100%);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		background-clip: text;
@@ -3613,9 +3613,19 @@ input, select, textarea {
 		color: #ffffff !important;
 	}
 
-	/* Software Engineering-specific enhancements */
-	#header .icon.solid.major.fa-laptop-code {
-		filter: drop-shadow(0 4px 8px rgba(16, 185, 129, 0.4));
+	/* DevOps Engineering-specific enhancements */
+	#header .icon.solid.major.fa-tools {
+		filter: drop-shadow(0 4px 8px rgba(139, 92, 246, 0.4));
+		animation: rotate-tools 4s linear infinite;
+	}
+
+	@keyframes rotate-tools {
+		from {
+			transform: rotate(0deg);
+		}
+		to {
+			transform: rotate(360deg);
+		}
 	}
 
 	/* Enhanced card hover effects for competencies */
@@ -3624,14 +3634,14 @@ input, select, textarea {
 		border-radius: 12px;
 		padding: 2.5em;
 		transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-		border: 1px solid rgba(16, 185, 129, 0.1);
+		border: 1px solid rgba(139, 92, 246, 0.1);
 	}
 
 	#three .col-4:hover {
-		background: rgba(16, 185, 129, 0.1);
-		box-shadow: 0 10px 30px rgba(16, 185, 129, 0.3);
+		background: rgba(139, 92, 246, 0.1);
+		box-shadow: 0 10px 30px rgba(139, 92, 246, 0.3);
 		transform: translateY(-10px);
-		border-color: rgba(16, 185, 129, 0.3);
+		border-color: rgba(139, 92, 246, 0.3);
 	}
 
 	/* Icon pulse animation for QA icons */
@@ -3676,21 +3686,21 @@ input, select, textarea {
 
 	/* Modern button enhancements */
 	.button.primary {
-		background: linear-gradient(135deg, #10B981 0%, #059669 100%);
+		background: linear-gradient(135deg, #8B5CF6 0%, #7C3AED 100%);
 		border: none;
-		box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4);
+		box-shadow: 0 4px 15px rgba(139, 92, 246, 0.4);
 		transition: all 0.3s ease;
 	}
 
 	.button.primary:hover {
-		background: linear-gradient(135deg, #059669 0%, #10B981 100%);
-		box-shadow: 0 6px 20px rgba(16, 185, 129, 0.5);
+		background: linear-gradient(135deg, #7C3AED 0%, #8B5CF6 100%);
+		box-shadow: 0 6px 20px rgba(139, 92, 246, 0.5);
 		transform: translateY(-2px);
 	}
 
 	/* Section background enhancements */
 	.main.style1 {
-		background: linear-gradient(to bottom, #ffffff 0%, #ECFDF5 100%);
+		background: linear-gradient(to bottom, #ffffff 0%, #FAF5FF 100%);
 	}
 
 	/* Enhanced text readability */
@@ -3699,25 +3709,25 @@ input, select, textarea {
 	}
 
 	#two p strong {
-		text-shadow: 0 1px 2px rgba(16, 185, 129, 0.2);
+		text-shadow: 0 1px 2px rgba(139, 92, 246, 0.2);
 	}
 
-	/* Software engineering aesthetic */
-	#two .icon.solid.major.fa-laptop-code {
+	/* DevOps engineering aesthetic */
+	#two .icon.solid.major.fa-tools {
 		font-family: 'Courier New', monospace;
 	}
 
-	/* Pulse effect for software engineering theme */
+	/* Pulse effect for DevOps engineering theme */
 	@keyframes pulse-glow {
 		0%, 100% {
-			box-shadow: 0 0 20px rgba(16, 185, 129, 0.3);
+			box-shadow: 0 0 20px rgba(139, 92, 246, 0.3);
 		}
 		50% {
-			box-shadow: 0 0 30px rgba(52, 211, 153, 0.5);
+			box-shadow: 0 0 30px rgba(167, 139, 250, 0.5);
 		}
 	}
 
-	#header .icon.solid.major.fa-laptop-code:hover {
+	#header .icon.solid.major.fa-tools:hover {
 		animation: pulse-glow 2s ease-in-out infinite;
 	}
 
@@ -3739,16 +3749,42 @@ input, select, textarea {
 		animation: gradient-shift 15s ease infinite;
 	}
 
-	/* Code typing animation effect */
-	@keyframes code-typing {
+	/* DevOps automation animation effect */
+	@keyframes automation-pulse {
 		0%, 100% {
 			opacity: 1;
+			transform: scale(1);
 		}
 		50% {
-			opacity: 0.6;
+			opacity: 0.8;
+			transform: scale(1.05);
 		}
 	}
 
-	#two .major-icons li .icon.fa-code {
-		animation: code-typing 2s ease-in-out infinite;
+	#two .major-icons li .icon.fa-tools {
+		animation: automation-pulse 2s ease-in-out infinite;
+	}
+
+	#two .major-icons li .icon.fa-cogs {
+		animation: automation-pulse 2s ease-in-out infinite 0.3s;
+	}
+
+	#two .major-icons li .icon.fa-rocket {
+		animation: automation-pulse 2s ease-in-out infinite 0.6s;
+	}
+
+	/* Pulse ring animation for About Me section */
+	@keyframes pulse-ring {
+		0% {
+			transform: translate(-50%, -50%) scale(0.8);
+			opacity: 1;
+		}
+		50% {
+			transform: translate(-50%, -50%) scale(1.2);
+			opacity: 0.5;
+		}
+		100% {
+			transform: translate(-50%, -50%) scale(0.8);
+			opacity: 1;
+		}
 	}
